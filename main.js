@@ -13,7 +13,7 @@ botao.addEventListener('click', function () {
         paragrafo.style.textDecoration = 'line-through'
     })
     paragrafo.addEventListener('dbclick', function(){
-        paragrafo.removeChild(paragrafo)
+        lista.removeChild(paragrafo)
     })  
 
 })
